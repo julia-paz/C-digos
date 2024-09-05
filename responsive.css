@@ -1,0 +1,12 @@
+/* Estilos para telas pequenas (mobile) */
+
+@media (max-width: 600px) {
+    .grid-container {
+        grid-template-columns: 1fr;
+    }
+
+    grid-item {
+        font-size: :20px;
+        padding: 15px;
+    }
+}
