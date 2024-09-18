@@ -1,61 +1,79 @@
-
 <!DOCTYPE html>
-<html lang="pt-BR">
-<head>
+<hmtl lang="en">
+
+<head> 
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SENAI</title>
-    
-    <link rel="icon" href="C:\Users\ead\Desktop\unipaz\img/favicon.ico" type="image/favicon">
-    
-    <link rel="stylesheet" href="styles/style.css">
+    <meta name="viewport">
+    <meta name="viewport" content="width=device-width,
+    initial-scale=1.0">
+    <meta name="author" content="Julia">
 </head>
 <body>
-  
-    <header>
-        <div class="logo">
-            <img src="C:\Users\ead\Desktop\unipaz\img/senai-logo.png"  alt="Logo da Instituição">
-        </div>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#sobre">Sobre</a></li>
-                <li><a href="tabela.html">Cursos</a></li>
-                <li><a href="contato.html">Contato</a></li>
-                
-            </ul>
-        </nav>
-    </header>
-
-    <main>
-        <section id="home">
-            <h1>Bem-vindo ao SENAI!</h1>
-            <p>Nossa missão é fornecer educação de qualidade para todos.</p>
-            <img src="C:\Users\ead\Desktop\unipaz\img/instituicao.jpg" alt="Imagem da Instituição">
-        </section>
-
-        <section id="sobre">
-            <h2>Sobre Nós</h2>
-            <p>Estamos comprometidos em oferecer os melhores recursos e tecnologias para nossos alunos.</p>
-        </section>
-
-        <section id="cursos">
-            <h2>Nossos Cursos</h2>
-            <p>Oferecemos uma variedade de cursos nas áreas de tecnologia, ciência, e artes.</p>
+<h1>Olá mundo</h1>
+    <!--Javascript-->
+    <script>
+        let x = 10;
+        console.log("O valor de x é: "+ x);
+        // Exibe a mensagem no console.
+        window.alert("Carregando...");
+        // Permitirá a entrada do dado e o console abrirá a saída
+        let nome = window.prompt("Qual é o seu nome?");
+        console.log("Nome informado: " + nome);
+        // O window.open() abre uma nova janela ou aba com o url especificado.
+        // window.open("https://github.com/", "_blank");
+        window.setTimeout(function () {
+            console.log("Executando após 5 segundos");
+        }, 5000); //5000 milissegundos = 5 segundos
+        //Solicita uma confirmação
+        window.confirm("Você está entendendo?");
+        /* Fechará a janela
+        window.close() */
+        // Iniciará uma impressão de página
+        window.print();
+        window.setInterval(function () {
+            console.log: ("Você não quer aprender mesmo");
+        }
+    )
+        wind0w.clearInterval(IntervalID);
+        window.clearTimeout(timeoutID);
+        window.scroll(x,y);
+        window.scrollBy(x,y);
+        window.resizeTo(width, height);
+        window.moveTo(x, y); // move a janela para as coordenadas específicas
+        window.history (); // histórico
+        window.forward (); // próxima janela
+        window.back (); // janela anterior
+        window.go (0); // navega no histporico, ex. janela nº 5
+        //
+        window.addEventListener(event, function ()); // adicionará um evento
+        // eventos da window
+        window.getSelection; // selecione um determinado item
+        window.removeEventListener(event, function);
+        // efeito na janela
+        window.focus; // foco
+        window.blur; // remove o foco da janela
         
-            <div class="video-container">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/17c7AqjKMhI?si=8calCX-L3sySn0Q9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe></iframe>
-            </div>
-         
+        // principais consoles de mensagens
+        console.log("Essa mensagem é padrão"); // exibe a mensagem
+        console.error("Este é um erro comum. "); // exibe um pop-up de erro
+        console.info("Não se esqueçam de estudar"); // exibe um pop-up de informação
+        console.warn("Sem estudo, sem PIX!"); // exibe um pop-up de aviso
 
-        <section id="contato">
-            <h2>Contato</h2>
-            <p>Entre em contato conosco para mais informações!</p>
-        </section>
-    </main>
+        // principais consoles de saída
+        console.clear; // limpa o console
+        console.dir // cria um diretório
+        console.table(array); // criará uma tabela para a array
 
-    <footer>
-        <p>&copy; 2024 Senai Taguatinga. Todos os direitos reservados.</p>
-    </footer>
+        // exibe uma tabela com dados no console
+        let pessoas = [{nome: "Ana", idade: 28}, {nome: "Bruno", idade: 34}];
+        console.table(pessoas);
+        // agrupa mensagens em uma hierarquia
+        console.group("Grupo de logs");
+        console.log("Log dentro do grupo");
+        console.groupEnd();
+        // exibe uma mensagem de erro se a condição for falsa
+        console.assert(2 === 3, "Erro: 2 não é igual a 3");
+
+    </script>
 </body>
-</html>
+</hmtl>
